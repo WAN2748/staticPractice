@@ -1,0 +1,226 @@
+@font-face {
+    font-family: adihaus_regular; src: url('/font/adihaus_regular.ttf');
+}
+
+@font-face {
+    font-family: adihaus_bold; src: url('/font/adihaus_bold.ttf');
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    min-height: 100vh;
+
+}
+
+h1 {
+    color: #CD3A24;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: adihaus_regular;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 5px;
+    margin: 0px 40px 0px 0px;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px 0px 40px;
+    
+}
+
+input {
+    width: 60%;
+    border: 1px solid #333333;
+}
+
+.all-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#submit-btn {
+    color: #FFFFFF;
+    font-family: adihaus_bold;
+    font-size: 15px;
+    width: 64px;
+    height: 48px;
+    background-color: #333333;
+    cursor: pointer;
+    box-shadow: 8px 8px 0px 0px #33333307;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px 0px 0px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/Bitmap.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin-top: 15px;
+    height: 164px;
+    
+    
+}
+
+
+
+.message {
+    color: #423A3A;
+    font-family: adihaus_bold;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0px 40px 0px 0px;
+}
+
+.content-message {
+    color: #333333;
+    position: absolute;
+    font-family: adihaus_regular;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align:center;
+    width: 85%;
+}
+
+
+@media (min-width: 800px) { 
+    html, body {
+        background-image: url('/img/desktp-1/Group\ 7.png');
+        margin: 0px;
+        padding: 0px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .logo {
+        position: relative;
+        width: 71px;
+        height: 48px;
+        left: 165px;
+        top: 49px;
+    }
+
+    h1 {
+        color: #CD3A24;
+        text-transform: uppercase;
+        font-family: adihaus_regular;
+        font-weight: 400;
+        font-size: 48px;
+        letter-spacing: 5px;;
+        margin-top: 18%;
+        display: flex;
+        justify-content:space-between;
+        padding-left: 165px;
+        
+
+    
+    }
+
+  
+    .message {
+        color: #423A3A;
+        font-family: adihaus_bold;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 50px;
+        letter-spacing: 5px;
+        text-align: left;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0px 0px 0px 165px;
+        
+        
+    }
+
+    .content-message {
+        color: #333333;
+        position: relative;
+        font-family: adihaus_regular;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: left;
+        padding-left: 165px;
+        width: 375px;
+    }
+
+    form {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0%;
+        width: 31rem;
+    }
+
+    .hero {
+        display: flex;
+        align-content: flex-end;
+        background-image: url("/img/desktp-1/Mask.png");
+        position: absolute;
+        width: 700px;
+        height: 700px;
+        left: 600px;
+        top: -15px;
+        
+    }
+    
+
+ }
+
+/*  Large devices (desktops, 992px and above till next break point)*/
+@media (min-width: 992px) {
+    html, body {
+        background-image: url('/img/desktp-1/Group\ 7.png');
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .frame {
+        background-image: url('/img/desktp-2/Frame.png');
+        background-repeat: no-repeat;
+        padding-bottom: 10%;
+    }
+
+    h1 {
+        color: #2F80ED;
+
+    }
+
+    .hero {
+        display: flex;
+        align-content: flex-end;
+        background-image: url("/img/desktp-2/Mask.png");
+        position: absolute;
+        width: 610px;
+        height: 750px;
+        left: 750px;
+        top: -15px;
+    }
+
+
+ }
