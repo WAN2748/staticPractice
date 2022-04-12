@@ -1,9 +1,9 @@
 @font-face {
-    font-family: adihaus_regular; src: url('/font/adihaus_regular.ttf');
+    font-family: adihaus_regular; src: url('./font/adihaus_regular.ttf');
 }
 
 @font-face {
-    font-family: adihaus_bold; src: url('/font/adihaus_bold.ttf');
+    font-family: adihaus_bold; src: url('./font/adihaus_bold.ttf');
 }
 
 html, body {
@@ -65,7 +65,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/img/Bitmap.PNG" alt="athlete");
+    background-image: url("./img/Bitmap.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +106,7 @@ input {
 
 @media (min-width: 768px) { 
     html, body {
-        background-image: url('/img/desktp-1/Group\ 7.png');
+        background-image: url('./img/desktp-1/Group\ 7.png');
         margin: 0px;
         padding: 0px;
         min-width: 100%;
@@ -175,7 +175,7 @@ input {
 
     .hero {
         display: block;
-        background-image: url("/img/desktp-1/Mask.png");
+        background-image: url("./img/desktp-1/Mask.png");
         position: absolute;
         width: 700px;
         height: 667px;
@@ -188,7 +188,7 @@ input {
 
 @media (min-width: 1150px) {
     html, body {
-        background-image: url('/img/desktp-2/Frame.png');
+        background-image: url('./img/desktp-2/Frame.png');
         background-repeat:no-repeat;
         background-size: cover; 
         min-width: 100%;
@@ -204,7 +204,7 @@ input {
     .hero {
         display: block;
         align-content: flex-end;
-        background-image: url("/img/desktp-2/Mask.png");
+        background-image: url("./img/desktp-2/Mask.png");
         position: absolute;
         height: 820px;
         left: 50%;
