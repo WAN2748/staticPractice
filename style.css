@@ -23,6 +23,7 @@ h1 {
     font-size: 48px;
     letter-spacing: 5px;
     margin: 0px 40px 0px 0px;
+    padding: 10px 30px 0px 90px;
 
 }
 
@@ -38,10 +39,6 @@ input {
     border: 1px solid #333333;
 }
 
-.all-container {
-    max-width: 400px;
-    margin: 0 auto;
-}
 
 #submit-btn {
     color: #FFFFFF;
@@ -61,7 +58,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 60px 0px 0px;
+    padding: 10px 5px 0px 0px;
 }
 
 .hero {
@@ -90,7 +87,7 @@ input {
     line-height: 50px;
     text-align: center;
     letter-spacing: 5px;
-    margin: 0px 40px 0px 0px;
+    margin: 0px 0px 0px 17px;
 }
 
 .content-message {
@@ -102,11 +99,12 @@ input {
     font-size: 14px;
     line-height: 28px;
     text-align:center;
+    padding: 10%;
     width: 85%;
 }
 
 
-@media (min-width: 800px) { 
+@media (min-width: 768px) { 
     html, body {
         background-image: url('/img/desktp-1/Group\ 7.png');
         margin: 0px;
@@ -114,13 +112,8 @@ input {
         min-width: 100%;
         min-height: 100%;
     }
-    .logo {
-        position: relative;
-        width: 71px;
-        height: 48px;
-        left: 165px;
-        top: 49px;
-    }
+    
+
 
     h1 {
         color: #CD3A24;
@@ -129,13 +122,19 @@ input {
         font-weight: 400;
         font-size: 48px;
         letter-spacing: 5px;;
-        margin-top: 18%;
+        margin-top: 8%;
         display: flex;
         justify-content:space-between;
-        padding-left: 165px;
+        padding-left: 182px;
         
 
     
+    }
+
+    .logo {
+        display: block;
+        justify-self:flex-end;
+        margin: 100px 0px 0px 182px;
     }
 
   
@@ -163,7 +162,7 @@ input {
         font-size: 14px;
         line-height: 28px;
         text-align: left;
-        padding-left: 165px;
+        padding-left: 182px;
         width: 375px;
     }
 
@@ -175,36 +174,28 @@ input {
     }
 
     .hero {
-        display: flex;
-        align-content: flex-end;
+        display: block;
         background-image: url("/img/desktp-1/Mask.png");
         position: absolute;
         width: 700px;
-        height: 700px;
-        left: 600px;
-        top: -15px;
-        
+        height: 667px;
+        left: 50%;
+        top: 0%;
     }
     
 
  }
 
-/*  Large devices (desktops, 992px and above till next break point)*/
-@media (min-width: 992px) {
+
+@media (min-width: 1150px) {
     html, body {
-        background-image: url('/img/desktp-1/Group\ 7.png');
-        background-repeat: no-repeat;
-        margin: 0px;
-        padding: 0px;
+        background-image: url('/img/desktp-2/Frame.png');
+        background-repeat:no-repeat;
+        background-size: cover; 
         min-width: 100%;
         min-height: 100%;
     }
 
-    .frame {
-        background-image: url('/img/desktp-2/Frame.png');
-        background-repeat: no-repeat;
-        padding-bottom: 10%;
-    }
 
     h1 {
         color: #2F80ED;
@@ -212,14 +203,18 @@ input {
     }
 
     .hero {
-        display: flex;
+        display: block;
         align-content: flex-end;
         background-image: url("/img/desktp-2/Mask.png");
         position: absolute;
-        width: 610px;
-        height: 750px;
-        left: 750px;
+        height: 820px;
+        left: 50%;
         top: -15px;
+    }
+
+    .all-container {
+        display: block;
+        left: 50%;
     }
 
 
