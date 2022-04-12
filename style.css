@@ -65,7 +65,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/img/Bitmap.PNG");
+    background-image: url("/img/Bitmap.PNG" alt="athlete");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
