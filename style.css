@@ -65,7 +65,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/img/Bitmap.png");
+    background-image: url("/img/Bitmap.PNG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +186,6 @@ input {
 
  }
 
-
 @media (min-width: 1150px) {
     html, body {
         background-image: url('/img/desktp-2/Frame.png');
@@ -216,6 +215,5 @@ input {
         display: block;
         left: 50%;
     }
-
 
  }
